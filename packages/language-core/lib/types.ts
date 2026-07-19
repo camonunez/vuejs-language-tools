@@ -7,7 +7,7 @@ import type { VueEmbeddedCode } from './virtualCode/embeddedCodes';
 
 export type { SFCParseResult } from '@vue/compiler-sfc';
 
-export { VueEmbeddedCode };
+export type { VueEmbeddedCode };
 
 export type RawVueCompilerOptions = Partial<Omit<VueCompilerOptions, 'target' | 'plugins'>> & {
 	strictTemplates?: boolean;
